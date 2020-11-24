@@ -4,7 +4,7 @@ describe('user views menus', () => {
 		cy.visit("http://localhost:3001")
 	});
 
-	describe('whar there are products', () => {
+	describe('when there are products', () => {
 		before(() => {
 			cy.server();
 			cy.route({
