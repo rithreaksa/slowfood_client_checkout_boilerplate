@@ -3,20 +3,22 @@ import DisplayProductData from "./components/DisplayProductData";
 import Login from "./components/Login";
 
 class App extends Component {
-
   state = {
-    authenticated: false
-  }
+    authenticated: false,
+  };
+
   toggleAuthenticatedState() {
-    this.setState({authenticated: !this.state.authenticated })
+    this.setState({ authenticated: !this.state.authenticated });
   }
+
   render() {
     return (
       <>
-      <Login toggleAuthenticatedState={() => this.toggleAuthenticatedState()}/>
-      <h1>Slowfood</h1>
-      <DisplayProductData />
-        
+        <Login
+          toggleAuthenticatedState={() => this.toggleAuthenticatedState()}
+        />
+        <h1>Slowfood</h1>
+        <DisplayProductData />
       </>
     );
   }

@@ -2,20 +2,20 @@
   "products": [
     {
       "id": 1,
-      "name":"Spaghetti and Meatballs",
+      "name": "Spaghetti and Meatballs",
       "description": "Amazing pasta with Swedish meatballs.",
       "price": 13.50
     },
     {
       "id": 2,
-      "name":"Salad",
-      "description":"Crispy green salad.",
+      "name": "Salad",
+      "description": "Crispy green salad.",
       "price": 4.00
     },
     {
       "id": 3,
-      "name":"Ice Cream",
-      "description":"Ice cold ice cream.",
+      "name": "Ice Cream",
+      "description": "Ice cold ice cream.",
       "price": 3.75
     }
   ]

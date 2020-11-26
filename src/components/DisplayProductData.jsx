@@ -17,7 +17,6 @@ class DisplayProductData extends Component {
 
   render() {
     let dataIndex;
-    debugger;
     if (
       Array.isArray(this.state.productData) &&
       this.state.productData.length
